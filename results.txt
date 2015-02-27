@@ -1,0 +1,74 @@
+Results:
+measureOneLookup:			Result: 0.035 ±(99.9%) 0.004 ms/op [Average]
+measureOneCachedLookup: 	Result: 0.012 ±(99.9%) 0.002 ms/op [Average]
+measureTenLookups:			Result: 0.145 ±(99.9%) 0.019 ms/op [Average]
+measureTenCachedLookups:	Result: 0.014 ±(99.9%) 0.002 ms/op [Average]
+measure1000Lookups:			Result: 9.598 ±(99.9%) 0.922 ms/op [Average]
+measure1000CachedLookups:	Result: 0.286 ±(99.9%) 0.033 ms/op [Average]
+
+
+measureOneLookup:
+Result: 0.035 ±(99.9%) 0.004 ms/op [Average]
+  Statistics: (min, avg, max) = (0.030, 0.035, 0.043), stdev = 0.004
+  Confidence interval (99.9%): [0.031, 0.039]
+
+
+# Run complete. Total time: 00:01:18
+
+Benchmark                     Mode  Cnt  Score   Error  Units
+ServiceTest.measureOneLookup  avgt   15  0.035 ± 0.004  ms/op
+---------------------------------------------------------------------
+measureOneCachedLookup:
+Result: 0.012 ±(99.9%) 0.002 ms/op [Average]
+  Statistics: (min, avg, max) = (0.011, 0.012, 0.016), stdev = 0.002
+  Confidence interval (99.9%): [0.011, 0.014]
+
+
+# Run complete. Total time: 00:01:21
+
+Benchmark                           Mode  Cnt  Score   Error  Units
+ServiceTest.measureOneCachedLookup  avgt   15  0.012 ± 0.002  ms/op
+---------------------------------------------------------------------
+measureTenLookups:
+Result: 0.145 ±(99.9%) 0.019 ms/op [Average]
+  Statistics: (min, avg, max) = (0.130, 0.145, 0.181), stdev = 0.018
+  Confidence interval (99.9%): [0.126, 0.164]
+
+
+# Run complete. Total time: 00:01:19
+
+Benchmark                      Mode  Cnt  Score   Error  Units
+ServiceTest.measureTenLookups  avgt   15  0.145 ± 0.019  ms/op
+---------------------------------------------------------------------
+measureTenCachedLookups
+Result: 0.014 ±(99.9%) 0.002 ms/op [Average]
+  Statistics: (min, avg, max) = (0.013, 0.014, 0.019), stdev = 0.002
+  Confidence interval (99.9%): [0.012, 0.016]
+
+
+# Run complete. Total time: 00:01:21
+
+Benchmark                            Mode  Cnt  Score   Error  Units
+ServiceTest.measureTenCachedLookups  avgt   15  0.014 ± 0.002  ms/op
+---------------------------------------------------------------------
+measure1000Lookups:
+Result: 9.598 ±(99.9%) 0.922 ms/op [Average]
+  Statistics: (min, avg, max) = (9.186, 9.598, 12.689), stdev = 0.862
+  Confidence interval (99.9%): [8.676, 10.519]
+
+
+# Run complete. Total time: 00:01:22
+
+Benchmark                       Mode  Cnt  Score   Error  Units
+ServiceTest.measure1000Lookups  avgt   15  9.598 ± 0.922  ms/op
+---------------------------------------------------------------------
+measure1000CachedLookups:
+Result: 0.286 ±(99.9%) 0.033 ms/op [Average]
+  Statistics: (min, avg, max) = (0.258, 0.286, 0.357), stdev = 0.031
+  Confidence interval (99.9%): [0.252, 0.319]
+
+
+# Run complete. Total time: 00:01:21
+
+Benchmark                             Mode  Cnt  Score   Error  Units
+ServiceTest.measure1000CachedLookups  avgt   15  0.286 ± 0.033  ms/op
